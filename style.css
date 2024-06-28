@@ -1,0 +1,81 @@
+html,
+body {
+    height: 100%;
+    line-height: 1.5em;
+    font-size: 16px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: rgb(78, 8, 138);
+    font-weight: 500;
+
+}
+
+.pimg1 {
+    min-height: 100%;
+    object-fit: contain;
+    background-image: url(images/image1.png);
+
+}
+
+.pimg2 {
+    min-height: 90%;
+    background-image: url(images/image2.png);
+
+}
+
+.pimg3 {
+    min-height: 90%;
+    background-image: url(images/image3.png);
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+
+}
+
+.textbg {
+    background: white;
+    color: brown;
+    padding: 20px;
+    opacity: 0.5;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light {
+    background-color: rgb(238, 230, 246);
+    padding: 20px 40px;
+
+}
+
+.section-dark {
+
+    padding: 20px 40px;
+    background-color: rgb(162, 175, 175);
+
+}
+
+.section-dali {
+    padding: 20px 40px;
+    background-color: rgb(231, 203, 230);
+}
